@@ -1,0 +1,38 @@
+
+body {
+    background-color: #f8f9fa; /* Colore di sfondo chiaro */
+    font-family: 'Nunito', sans-serif; /* Fonte di testo chiaro */
+    line-height: 1.42857143; /* Altezza uniforme per testo chiaro */
+    color: #343a40; /* Colore del testo chiaro */
+    margin: 0;
+    padding: 20px;
+    font-weight: 400;
+}
+h1 {
+    margin-bottom: 30px;
+    color: #343a40; /* Colore del testo del titolo */
+    text-align: center;
+}
+.filter-container {
+    margin-bottom: 20px;
+}
+.filter-container select, .filter-container input {
+    height: calc(2.25rem + 2px); /* Altezza uniforme per input e select */
+}
+table {
+    background-color: #ffffff; /* Sfondo bianco per la tabella */
+    border-radius: 5px; /* Angoli arrotondati per la tabella */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Leggera ombra per la tabella */
+    text-align: center;
+}
+th {
+    background-color: #27c993; /* Colore di sfondo per l'intestazione della tabella */
+    color: #ffffff; /* Colore del testo dell'intestazione */
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Colore di sfondo per le righe pari */
+}
+tr:hover {
+    background-color: #e9ecef; /* Colore di sfondo al passaggio del mouse */
+}

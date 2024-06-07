@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database di utenti</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/custom.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="mb-4">Database utenti</h1>
+    <div class="form-row mb-3">
+        <div class="col-md-3">
+            <select id="filterOption" class="form-control">
+                <option value="name">Nome</option>
+                <option value="username">Username</option>
+                <option value="email">Email</option>
+            </select>
+        </div>
+        <div class="col-md-9">
+            <input type="text" id="filterInput" class="form-control" placeholder="Cerca...">
+        </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+            <!-- Gli utenti verranno inseriti qui tramite JS -->
+        </tbody>
+    </table>
+</div>
+<script src="/script.js"></script>
+
+
+</body>
+</html>
